@@ -83,7 +83,7 @@ In a real app, you can wire up a switch to an IB action, so your app is notified
 
 ### Progress Indicators
 
-Sometimes your app is doing a task that takes a while to complete. It's nice to let your users know that your app is, in fact, doing something. You can indicate this activity using a _progress indicator_. A progress indicator is a bar that is filled as the task completes. When you create a progress indicator, you can change the max value, and then your app's code can change the progress indicator's value, so that the bar fills up as more work is done. Drag a progress indicator from the object library to your main view, below the slider you created:
+Sometimes your app is doing a task that takes a while to complete. It's nice to let your users know that your app is, in fact, doing something. You can indicate this activity using a _progress view_. A progress indicator is a bar that is filled as the task completes. When you create a progress indicator, you can change the max value, and then your app's code can change the progress indicator's value, so that the bar fills up as more work is done. Drag a progress indicator from the object library to your main view, below the slider you created:
 
 ![Progress indicators](http://i.imgur.com/iBnO1Ou.png)
 
